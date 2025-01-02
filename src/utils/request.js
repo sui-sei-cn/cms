@@ -1,9 +1,9 @@
-import axios from 'axios'
-import { useUserStore } from '@/stores'
-import { ElMessage } from 'element-plus'
 import router from '@/router'
+import { useUserStore } from '@/stores'
+import axios from 'axios'
+import { ElMessage } from 'element-plus'
 
-const BASE_URL = 'http://big-event-vue-api-t.itheima.net'
+const BASE_URL = 'https://big-event-vue-api-t.itheima.net'
 
 const instance = axios.create({
   baseURL: BASE_URL,
